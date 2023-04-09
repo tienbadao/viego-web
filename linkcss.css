@@ -1,0 +1,371 @@
+body {
+    background-color: #000000;
+}
+
+.dieu-huong {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(229, 244, 9);
+    background-image: url("https://oneesports.blob.core.windows.net/cdn-data/sites/4/2021/07/valorant-ruination-melle-1536x862.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dieu-huong .logo-icon {
+    margin-right: 8px;
+}
+
+.dieu-huong a {
+    color: rgb(230, 231, 231)
+}
+
+.dieu-huong_links a {
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration: none;
+    transition: all .4s;
+    font-weight: bolder;
+}
+
+.dieu-huong_links a:hover {
+    color: rgb(229, 244, 9);
+}
+
+.hinh-nen p {
+    font-size: 55px;
+}
+
+.hinh-nen h2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #faf3f3;
+    text-align: center;
+    z-index: 2;
+    font-style: italic;
+}
+
+.hinh-nen h3 {
+    z-index: 2;
+    position: absolute;
+    color: #faf3f3;
+    text-align: center;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+}
+
+.hinh-nen h1 {
+    content: "Your Text Here";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #faf3f3;
+    text-align: center;
+    z-index: 2;
+    font-style: italic;
+}
+
+.hinh-nen_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: blur(7px);
+    width: 100%;
+}
+
+.hinh-nen_img1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 17%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: 1;
+    padding-top: 64px;
+    width: 65%;
+}
+
+.ki-nang {
+    background-image: url("https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9a9028b7ee461629/600100c1c4800352b1e50e55/03_Viego_Portrait_Web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.skill {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.skill h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4 {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(247, 244, 244);
+    color: #faf3f3
+}
+
+.skill-1 h3,
+.skill-2 h3,
+.skill-3 h3,
+.skill-4 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.skill-1 p,
+.skill-2 p,
+.skill-3 p,
+.skill-4 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.skill-1 p {
+    color: red;
+}
+
+.skill-2 p {
+    color: blue;
+}
+
+.skill-3 p {
+    color: green;
+}
+
+.skill-4 p {
+    color: purple;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: brown;
+    margin: 10px;
+}
+
+.footer a:hover {
+    color: rgb(229, 244, 9);
+}
+
+.footerHN {
+    background-image: url(" https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc28d43095579c8b5/5d87c24e8d8a3163705e3070/summonersrift.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+/*phần thông tin/*/
+
+.video {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.video a {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 50px;
+    left: 56%;
+    top: 25%;
+}
+
+.cot-truyen {
+    color: aliceblue;
+    font-style: italic;
+}
+
+.cot-truyen1,
+.cot-truyen2,
+.cot-truyen3,
+.cot-truyen4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cot-truyen h1 {
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+
+/*skin/*/
+
+.skin h1 {
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.viego1,
+.viego2,
+.viego3,
+.viego4 {
+    width: 60%;
+    height: 0%;
+    padding-left: 20%;
+    object-fit: cover;
+}
+
+.skin h2 {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(20, 31, 51, .6);
+    padding: 0px 28% 0px 28%;
+}
+
+.skin1 h2 {
+    position: absolute;
+    top: 148%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(20, 31, 51, .6);
+    padding: 0px 28% 0px 28%;
+}
+
+.skin2 h2 {
+    position: absolute;
+    top: 216%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(20, 31, 51, .6);
+    padding: 0px 26% 0px 26%;
+}
+
+.skin3 h2 {
+    position: absolute;
+    top: 285%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(20, 31, 51, .6);
+    padding: 0px 28% 0px 27%;
+}
+
+
+/*bình chọn/*/
+
+form {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("https://motgame.vn//wp-content/uploads/2021/01/Viego-Thumb.jpg");
+}
+
+fieldset h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cornsilk;
+    display: flex
+}
+
+input[type="radio"]:checked+label {
+    background-color: #6180d6;
+    color: #0c0707;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 23px;
+    cursor: pointer;
+    padding-left: 10%;
+    margin-left: 37%;
+    padding-right: 10%;
+}
+
+button[type="submit"]:hover {
+    background-color: #005;
+}
